@@ -4,14 +4,13 @@ server:
 spring:
   datasource:
     username: root
-    password: 123456
+    password: 1234
     url: jdbc:mysql://127.0.0.1:3306/lottery?useUnicode=true&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
-  config-location:  classpath:/mybatis/config/mybatis-config.xml\
-
+  config-location:  classpath:/mybatis/config/mybatis-config.xml
 
 # Dubbo 广播方式配置
 dubbo:
